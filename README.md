@@ -1,12 +1,17 @@
-# React + Vite
+How to Run the Project
+    1. Node.js and npm installed.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+    2. Clone the repository
+        git clone https://github.com/Arshwinsajeevan/Lexisg-frontend-intern-test.git
+        cd Lexisg-frontend-intern-test
+        npm install
+        npm run dev
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+How citation linking was handled
+    -When the user inputs the exact pre-defined legal question, a simulated response is shown.
+    -The response includes a citation text with a hyperlink to a public PDF document.
+    -The link opens the document in a new tab to simulate traceability.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Screenshot
+    ![alt text](image.png)
